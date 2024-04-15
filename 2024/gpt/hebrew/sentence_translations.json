@@ -81,7 +81,7 @@
  },
  {
   "input": "All those tools that took the world by storm in 2022 like Dolly and Midjourney that take in a text description and produce an image are based on transformers.",
-  "translatedText": "כל הכלים האלה שכבשו את העולם בסערה בשנת 2022 כמו Dolly ו-Midjourney שמקבלים תיאור בטקסט ומייצרים תמונה מבוססים על טרנספורמרים.",
+  "translatedText": "כל הכלים האלה שכבשו את העולם בסערה בשנת 2022 כמו DALL-E ו-Midjourney שמקבלים תיאור בטקסט ומייצרים תמונה מבוססים על טרנספורמרים.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 56.66,
@@ -89,7 +89,7 @@
  },
  {
   "input": "Even if I can't quite get it to understand what a pie creature is supposed to be, I'm still blown away that this kind of thing is even remotely possible.",
-  "translatedText": "גם אם אני לא ממש מצליח לגרום לו להבין מה אמור להיות חייית פאי, אני עדיין המום מכך שדבר כזה אפשרי אפילו קצת.",
+  "translatedText": "גם אם אני לא ממש מצליח לגרום לו להבין מה זה "יצור פאי", אני עדיין המום מכך שדבר כזה אפשרי אפילו קצת.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 66,
@@ -105,7 +105,7 @@
  },
  {
   "input": "But the variant that you and I will focus on, which is the type that underlies tools like ChatGPT, will be a model that's trained to take in a piece of text, maybe even with some surrounding images or sound accompanying it, and produce a prediction for what comes next in the passage.",
-  "translatedText": "אבל הגרסה שבה אתם ואני נתמקד, שהוא הסוג שעומד בבסיס כלים כמו ChatGPT, יהיה מודל שמאומן לקלוט קטע טקסט, אולי אפילו עם כמה תמונות מסביב או קול שמלווים אותו, ולחזות מה יבוא אחר כך.",
+  "translatedText": "אבל הגרסה שבה אנחנו נתמקד, שהוא הסוג שעומד בבסיס כלים כמו ChatGPT, יהיה מודל שמאומן לקלוט מקטע טקסט, אולי אפילו עם כמה תמונות מסביב או קול שמלווים אותו, ולחזות מה יבוא אחר כך.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 82.66,
@@ -113,7 +113,7 @@
  },
  {
   "input": "That prediction takes the form of a probability distribution over many different chunks of text that might follow.",
-  "translatedText": "התחזית הזו היא בצורה של התפלגות הסתברותית על פני חלקי טקסט רבים ושונים שעשויים להופיע.",
+  "translatedText": " התחזית הזו היא בצורה של התפלגות הסתברותית על פני חלקי טקסט רבים ושונים שעשויים להופיע בהמשך.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 98.6,
@@ -129,7 +129,7 @@
  },
  {
   "input": "But once you have a prediction model like this, a simple thing you generate a longer piece of text is to give it an initial snippet to work with, have it take a random sample from the distribution it just generated, append that sample to the text, and then run the whole process again to make a new prediction based on all the new text, including what it just added.",
-  "translatedText": "אבל ברגע שיש לכם מודל חיזוי כזה, דבר פשוט שאתם יכולים לנסות זה לגרום לו לייצר קטע טקסט ארוך יותר. זאת על ידי  בקשה ממנו לקחת דגימה אקראית מההתפלגות שיצר לגבי קטע הטקסט הראשוני ולצרף אותה לטקסט. לאחר מכן להפעיל שוב את כל התהליך כדי לבצע חיזוי חדש המבוסס על הטקסט שכולל את מה שהוסיף.",
+  "translatedText": "אבל ברגע שיש לכם מודל חיזוי כזה, דבר פשוט שאתם יכולים לנסות זה לגרום לו לייצר קטע טקסט ארוך יותר. זאת על ידי  בקשה ממנו לקחת דגימה אקראית מההתפלגות שיצר לגבי קטע הטקסט הראשוני ולצרף אותה לאותו לטקסט. לאחר מכן להפעיל שוב את כל התהליך כדי לבצע חיזוי חדש המבוסס על הטקסט שכולל את מה שהוסיף.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 110.18,
@@ -177,7 +177,7 @@
  },
  {
   "input": "In fact, one feature that I would very much enjoy is the ability to see the underlying distribution for each new word that it chooses.",
-  "translatedText": "למעשה, תכונה אחת שהייתי מאוד נהנה ממנה היא היכולת לראות את ההתפלגות הבסיסית לכל מילה חדשה שהיא בוחרת.",
+  "translatedText": "למעשה, תכונה אחת שהייתי מאוד נהנה ממנה היא היכולת לראות את ההתפלגות הבסיסית לכל מילה חדשה שהמודל בוחר.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 172.48,
@@ -185,7 +185,7 @@
  },
  {
   "input": "Let's kick things off with a very high level preview of how data flows through a transformer.",
-  "translatedText": "בואו נתחיל עם תצוגה מקדימה ברמה גבוהה מאוד של האופן שבו הנתונים זורמים דרך טרנספורמר.",
+  "translatedText": "בואו נתחיל עם תצוגה מקדימה ברמה כללית מאוד של האופן שבו הנתונים זורמים דרך טרנספורמר.",
   "model": "google_nmt",
   "n_reviews": 2,
   "start": 183.82,
@@ -249,7 +249,7 @@
  },
  {
   "input": "For example, the meaning of the word model in the phrase a machine learning model is different from its meaning in the phrase a fashion model.",
-  "translatedText": "לדוגמה, המשמעות של המילה מודל בביטוי מודל למידת מכונה שונה ממשמעותה בביטוי מודל אופנה.",
+  "translatedText": "לדוגמה, המשמעות של המילה 'מודל' בביטוי 'מודל למידת מכונה' שונה ממשמעותה בביטוי 'סופר-מודל' (בתחום האופנה).",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 244.88,
@@ -305,7 +305,7 @@
  },
  {
   "input": "I'm glossing over some details about some normalization steps that happen in between, but this is after all a high-level preview.",
-  "translatedText": "אני פוסח כמה פרטים לגבי כמה שלבי נורמליזציה שקורים ביניהם, אבל אחרי הכל זו הצגה מקדימה כללית.",
+  "translatedText": "אני פוסח על כמה פרטים לגבי כמה שלבי נורמליזציה שקורים ביניהם, אבל אחרי הכל זו הצגה מקדימה כללית.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 306.98,
@@ -337,7 +337,7 @@
  },
  {
   "input": "Some of you in the know may remember how long before ChatGPT came into the scene, this is what early demos of GPT-3 looked like, you would have it autocomplete stories and essays based on an initial snippet.",
-  "translatedText": "כמה מכם אולי זוכרים שכמה זמן לפני ש-ChatGPT נכנס לתמונה, כך נראו הדגמות מוקדמות של GPT-3. גרמתם לו להשלים סיפורים ומאמרים על סמך קטע ראשוני.",
+  "translatedText": "כמה מכם אולי זוכרים שהרבה לפני ש-ChatGPT נכנס לתמונה, כך נראו הדגמות מוקדמות של GPT-3. גרמתם לו להשלים סיפורים ומאמרים על סמך קטע ראשוני.",
   "model": "google_nmt",
   "n_reviews": 1,
   "start": 353.64,
